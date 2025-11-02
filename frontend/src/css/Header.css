@@ -1,0 +1,39 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    gap : 15px;
+}
+
+.show-status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-expression {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px black;
+    width: 250px
+}
+
+.show-expression {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px black;
+}
+
+.submit-btn {
+    background-color: rgb(144, 250, 123) ;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+}
